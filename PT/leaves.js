@@ -1,4 +1,4 @@
-// 红叶自动认领
+// 红叶自动认领torrent
 
 elements = []; jQuery('[data-torrent_id]').each((i, dom) => {
 elements.push(dom.getAttribute('data-torrent_id'))   
