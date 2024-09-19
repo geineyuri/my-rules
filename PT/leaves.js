@@ -1,7 +1,7 @@
 // 红叶自动认领torrent
 
-elements = []; jQuery('[data-torrent_id]').each((i, dom) => {
-elements.push(dom.getAttribute('data-torrent_id'))   
+elements = []; jQuery('[data-torrent_id]').each((i, ele) => {
+elements.push(ele.getAttribute('data-torrent_id'))   
 })
 
 // 去重
