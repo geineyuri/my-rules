@@ -4,7 +4,7 @@ elements = []; jQuery('[data-torrent_id]').each((i, ele) => {
 elements.push(ele.getAttribute('data-torrent_id'))   
 })
 
-// 去重
+// 去重  
 elements = Array.from(new Set(elements))
 
 
